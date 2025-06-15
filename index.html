@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Raksha Bandhan</title>
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merienda:wght@700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+  <style>
+    body {
+      font-family: 'Merienda', cursive;
+      background-image: url('image.1.jpg');
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      color: #6a1b9a;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 460px;
+      background-color: rgba(255, 255, 255, 0.92);
+      padding: 35px 20px;
+      border-radius: 18px;
+      box-shadow: 0 0 18px rgba(106, 27, 154, 0.25);
+      margin: 40px auto;
+      z-index: 1;
+    }
+
+    h1 {
+      font-family: 'Kaushan Script', cursive;
+      color: #9c27b0;
+      margin-bottom: 15px;
+      margin-top: 5px;
+      font-size: 2.2rem;
+    }
+
+    .rakhi-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 15px 0;
+      min-height: 180px;
+    }
+
+    .rakhi-gif {
+      max-width: 230px;
+      max-height: 230px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      display: block;
+      margin: 0 auto;
+    }
+
+    .hindi-wishes {
+      font-family: 'Merienda', cursive;
+      font-size: 1.4rem;
+      color: #7b1fa2;
+      margin: 15px 0 25px 0;
+      font-weight: bold;
+      animation: fadeIn 2s;
+    }
+
+    .whatsapp-share {
+      background-color: #25D366;
+      color: white;
+      border: 2px solid #128C7E;
+      padding: 12px 20px;
+      font-size: 16px;
+      border-radius: 50px;
+      cursor: pointer;
+      margin-top: 20px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: all 0.3s ease;
+    }
+
+    .whatsapp-share:hover {
+      background-color: #128C7E;
+      transform: scale(1.05);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    }
+
+    .whatsapp-share i {
+      margin-right: 8px;
+      font-size: 20px;
+    }
+
+    /* Ads container styling - Modified */
+    .ad-container {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0; /* Changed from 10px to 0 to remove gap */
+      background-color: transparent;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      z-index: 100;
+      gap: 0; /* Removed gap between ads */
+    }
+
+    .ad-unit {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      background-color: transparent;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 1.7rem;
+      }
+
+      .hindi-wishes {
+        font-size: 1.2rem;
+      }
+
+      .rakhi-gif {
+        max-width: 180px;
+        max-height: 180px;
+      }
+
+      .whatsapp-share {
+        font-size: 14px;
+        padding: 10px 18px;
+      }
+
+      .container {
+        margin: 30px 10px;
+      }
+      
+      .ad-container {
+        padding: 0; /* Removed padding for mobile too */
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Happy Raksha Bandhan</h1>
+
+    <div id="greeting-container">
+      <div class="rakhi-container">
+        <img id="rakhi-image" class="rakhi-gif" src="Rakhi-gif.gif" alt="Rakhi Animation">
+      </div>
+      <div class="hindi-wishes">आपको और आपके परिवार को रक्षाबंधन की शुभकामनाएँ</div>
+    </div>
+
+    <button class="whatsapp-share" onclick="shareOnWhatsApp()">
+      <i class="fab fa-whatsapp"></i> WhatsApp पर शेयर करें
+    </button>
+  </div>
+
+  <!-- Ad Container at the very bottom -->
+  <div class="ad-container">
+    <div class="ad-unit">
+      <script type="text/javascript">
+        atOptions = {
+          'key' : '5ca50c86934fec370bed449297210751',
+          'format' : 'iframe',
+          'height' : 50,
+          'width' : 320,
+          'params' : {}
+        };
+      </script>
+      <script type="text/javascript" src="//www.highperformanceformat.com/5ca50c86934fec370bed449297210751/invoke.js"></script>
+    </div>
+    
+    <div class="ad-unit">
+      <script type="text/javascript">
+        atOptions = {
+          'key' : '5ca50c86934fec370bed449297210751',
+          'format' : 'iframe',
+          'height' : 50,
+          'width' : 320,
+          'params' : {}
+        };
+      </script>
+      <script type="text/javascript" src="//www.highperformanceformat.com/5ca50c86934fec370bed449297210751/invoke.js"></script>
+    </div>
+  </div>
+
+  <script>
+    function shareOnWhatsApp() {
+      const text = "Happy Raksha Bandhan! आपको और आपके परिवार को रक्षाबंधन की शुभकामनाएँ";
+      const url = window.location.href;
+      const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(text + "\n\n" + url)}`;
+      window.open(whatsappUrl, '_blank');
+    }
+  </script>
+</body>
+</html>
